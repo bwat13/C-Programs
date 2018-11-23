@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 void main()
 {
 	int i;
@@ -7,7 +6,7 @@ void main()
 	system("cls");
 	for(i=0;i<3;i++)
 		increment();
-	getch();
+	getchar();
 }
 
 void increment()
